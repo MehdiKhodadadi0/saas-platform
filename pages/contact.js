@@ -1,0 +1,2 @@
+import Link from "next/link";
+export default function Contact(){return <main className="page"><nav><strong>NovaSaaS</strong><Link href="/">← Home</Link></nav><span className="eyebrow">Contact</span><h1>Let's talk.</h1><p>For product questions, partnerships or support, add your preferred contact channel here.</p></main>}
