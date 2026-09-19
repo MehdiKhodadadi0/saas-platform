@@ -1,0 +1,2 @@
+import Link from "next/link";
+export default function Testimonials(){return <main className="page"><nav><strong>NovaSaaS</strong><Link href="/">← Home</Link></nav><span className="eyebrow">Testimonials</span><h1>Built around a better product experience.</h1><div className="grid"><article><p>“The structure gave our product a much cleaner starting point.”</p><b>— Product team</b></article><article><p>“Simple, focused and ready to extend.”</p><b>— Early user</b></article></div></main>}
