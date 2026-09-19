@@ -1,0 +1,3 @@
+import Link from "next/link";
+const items=[["Authentication","Email signup, login and callback flows powered by Supabase."],["Product pages","Dedicated features, pricing and testimonials pages."],["Responsive UI","A modern interface that adapts across desktop and mobile."],["SEO foundation","Semantic structure and focused page content for discoverability."]];
+export default function Features(){return <main className="page"><nav><strong>NovaSaaS</strong><Link href="/">← Home</Link></nav><span className="eyebrow">Features</span><h1>Everything you need to launch.</h1><div className="grid">{items.map(([t,d])=><article key={t}><h3>{t}</h3><p>{d}</p></article>)}</div></main>}
