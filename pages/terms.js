@@ -1,0 +1,1 @@
+import Link from "next/link"; export default function Terms(){return <main className="page"><nav><strong>NovaSaaS</strong><Link href="/">← Home</Link></nav><h1>Terms of Service</h1><p>These starter terms are placeholders. Review and replace them with production terms before launch.</p></main>}
